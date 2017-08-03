@@ -2,6 +2,9 @@
 ## Setup project
 ################################################################################
 
+# require Slack config
+require './config/slack'
+
 # Lock the project to Capistrano 3.8.1
 lock '3.8.1'
 
